@@ -1,0 +1,26 @@
+{
+  "include": ["utils.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["./fixtures/**/*.*","./_fixtures/**/*.*"],
+  "compilerOptions": {
+    
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "target": "ESNext",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+
+    "isolatedModules": true,
+
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.eslintcache
+
+__*
+
+node_modules/
+dist/
